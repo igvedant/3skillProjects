@@ -1,16 +1,43 @@
-# React + Vite
+# Project 3: Emoji Memory Match Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive, fast-paced emoji card matching game built with React 19 and Vite. Test your visual memory by finding matching emoji pairs in the lowest number of moves!
 
-Currently, two official plugins are available:
+## 🌟 Overview
+Players flip cards two at a time to find matching emoji icons. The application tracks move counters, flip states, matched pairs, and provides instant visual feedback upon game completion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **React 19**: Component state & hooks (`useState`, `useEffect`).
+- **Vite**: Ultra-fast build tool and local development server.
+- **Tailwind CSS 4**: Responsive grid layout and micro-animations.
+- **Oxlint**: Modern linter for code quality.
 
-## React Compiler
+## 📂 Project Structure
+```text
+project3/
+├── src/
+│   ├── App.jsx        # Core game logic and card matching state
+│   ├── App.css        # Game board layout styling
+│   ├── index.css      # TailwindCSS imports
+│   └── main.jsx       # Application entry point
+├── package.json       # Dependencies and scripts
+└── vite.config.js     # Vite configuration
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the Oxlint configuration
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Installation & Execution
+```bash
+# Navigate into project directory
+cd project3
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser to play.

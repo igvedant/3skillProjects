@@ -1,14 +1,18 @@
 # Dependencies
 node_modules/
-.pnpm-store/
+backend/node_modules/
+frontend/node_modules/
 
 # Production build output
 dist/
-dist-ssr/
+build/
+frontend/dist/
 
 # Environment files
 .env
 .env.local
+backend/.env
+frontend/.env
 
 # Logs
 logs
@@ -16,8 +20,7 @@ logs
 npm-debug.log*
 
 # Editor & OS files
-.vscode/*
-!.vscode/extensions.json
+.vscode/
 .idea/
 .DS_Store
 Thumbs.db
